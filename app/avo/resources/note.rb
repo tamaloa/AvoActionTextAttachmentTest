@@ -6,6 +6,6 @@ class Avo::Resources::Note < Avo::BaseResource
 
   def fields
     field :id, as: :id
-    field :content, as: :text
+    field :content, as: :trix, attachment_key: :trix_attachments
   end
 end
