@@ -65,4 +65,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-gem "avo", ">= 3.2"
+# gem "avo", ">= 3.2"
+gem "avo", git: "https://github.com/avo-hq/avo.git", branch: "main"
